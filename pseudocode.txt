@@ -3,5 +3,12 @@ STORE "Harga" AS INTEGER WITH VALUE
 STORE "Total" AS INTEGER WITH 0
 STORE "Harga Akhir" AS INTEGER WITH 0
 
-STORE "total" WITH "Jumlah" TIMES "Harga"
+STORE "Total" WITH "Jumlah" TIMES "Harga"
+DISPLAY "Total"
+
+IF "jumlah" EQUAL "Harga"
+STORE "Total" WITH "Jumlah" TIMES "Harga"
+DISPLAY "Total"
+ELSE IF "jumlah" EQUAL "Harga"
+STORE "Total" WITH "Jumlah" TIMES "Harga"
 DISPLAY "Total"
