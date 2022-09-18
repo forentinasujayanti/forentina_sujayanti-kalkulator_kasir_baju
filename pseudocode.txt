@@ -7,8 +7,11 @@ STORE "Total" WITH "Jumlah" TIMES "Harga"
 DISPLAY "Total"
 
 IF "jumlah" EQUAL "Harga"
-STORE "Total" WITH "Jumlah" TIMES "Harga"
-DISPLAY "Total"
+    STORE "Total" WITH "Jumlah" TIMES "Harga"
+    DISPLAY "Total"
 ELSE IF "jumlah" EQUAL "Harga"
-STORE "Total" WITH "Jumlah" TIMES "Harga"
-DISPLAY "Total"
+    STORE "Total" WITH "Jumlah" TIMES "Harga"
+    DISPLAY "Total"
+ELSE
+    DISPLAY "Harga Akhir"
+END IF
