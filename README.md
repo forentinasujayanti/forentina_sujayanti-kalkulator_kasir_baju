@@ -6,3 +6,6 @@ Kalkulator ini digunakan untuk mempermudah dalam perhitungan pembelian baju yang
 - Flowchart.drawio
 - Pseudocode. txt
 - README.md
+
+Nama:
+- FORENTINA KERTI PRATIWI SUJAYANTI - FE3107632
